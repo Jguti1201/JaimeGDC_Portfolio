@@ -83,7 +83,7 @@ st.markdown(
 st.markdown(
     """
     <h1 style="margin-bottom:0;">Jaime Gutiérrez de Calderón</h1>
-    <h3 class="subtitle">Data Scientis & AI Engineer</h3>
+    <h3 class="subtitle">Data Scientist & AI Engineer</h3>
     """,
     unsafe_allow_html=True
 )
@@ -188,4 +188,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 

@@ -83,7 +83,7 @@ st.markdown(
 st.markdown(
     """
     <h1 style="margin-bottom:0;">Jaime Gutiérrez de Calderón</h1>
-    <h3 class="subtitle">Data Scientist & AI Engineer</h3>
+    <h3 class="subtitle">Solutions Architect | Data Science | Generative AI</h3>
     """,
     unsafe_allow_html=True
 )
@@ -95,7 +95,9 @@ with col1:
     st.markdown(
         """
         <div class="section-box">
-        Data Scientist and Artificial Intelligence Consultant with over 2 years of experience developing advanced analytics, machine learning, and generative AI solutions in consulting environments. Strong background in mathematics and hands-on experience with Python, SQL, statistical analysis, NLP, and cloud services (Azure). I have worked on high-impact projects combining data analysis, AI models, and visualization to support business decision-making. Profile with strong analytical skills, quick learning ability, and experience collaborating with multidisciplinary teams.
+        External Global Solutions Architect at Deloitte, supporting BBVA's digital transformation and enterprise innovation.
+        I specialize in designing enterprise architectures, generative AI integration, cloud solutions (AWS), and data-driven decision support.
+        Experienced in translating complex business needs into scalable technical solutions across banking and financial services.
         </div>
         """,
         unsafe_allow_html=True
@@ -125,11 +127,12 @@ with col1:
     st.markdown(
         """
         <div class="section-box">
-        <strong>Data Science & Analytics</strong>
+        <strong>Enterprise Architecture</strong>
         <ul>
-            <li>Machine Learning: supervised & unsupervised models</li>
-            <li>Predictive Analytics & Pattern Detection</li>
-            <li>Statistics & Exploratory Data Analysis (EDA)</li>
+            <li>Solutions Design (Functional & Technical)</li>
+            <li>Demand Management & Prioritization</li>
+            <li>Architecture Patterns & Best Practices</li>
+            <li>Systems Integration & Microservices</li>
         </ul>
         </div>
         """,
@@ -140,11 +143,12 @@ with col2:
     st.markdown(
         """
         <div class="section-box">
-        <strong>Advanced AI</strong>
+        <strong>Cloud & AI</strong>
         <ul>
-            <li>NLP & Semantic Search</li>
-            <li>Generative AI & Prompt Engineering</li>
-            <li>Embeddings & Vector Databases</li>
+            <li>AWS: EC2, Lambda, S3, DynamoDB, OpenSearch, Kinesis, Athena</li>
+            <li>Generative AI & LLMs Integration</li>
+            <li>Prompt Engineering & Semantic Search</li>
+            <li>RAG & Vector Embeddings</li>
         </ul>
         </div>
         """,
@@ -155,11 +159,12 @@ with col3:
     st.markdown(
         """
         <div class="section-box">
-        <strong>Tools & Platforms</strong>
+        <strong>Data & Analytics</strong>
         <ul>
-            <li>Python (pandas, numpy, scikit-learn), SQL</li>
-            <li>Azure Cloud: Azure AI / Azure OpenAI / Azure Document Intelligence / Logic Apps / Azure Ai Search/ Azure Data Studio</li>
-            <li>Power BI, Streamlit, Git, R (analytical use)</li>
+            <li>Big Data: Hadoop, Spark, Kafka</li>
+            <li>Data Lakes & Data Warehouses</li>
+            <li>Machine Learning & Predictive Analytics</li>
+            <li>Banking Domain: Retail, Enterprise, CIB</li>
         </ul>
         </div>
         """,
@@ -172,21 +177,23 @@ st.subheader("About Me")
 st.markdown(
     """
     <div class="section-box">
-    I am a highly adaptable Data Scientist with a strong passion for data analysis and artificial intelligence.
-    My ability to learn quickly enables me to absorb new technologies and methodologies rapidly,
-    allowing me to apply these skills effectively to solve complex problems.<br>
-
-    I naturally thrive in collaborative environments, valuing the ideas and input of others to achieve shared goals.
-    I communicate clearly and listen attentively to my team, which helps in building strong and effective relationships in any setting.
-    My technical expertise is complemented by my ability to work cohesively within a team.<br>
-
-    Overall, I consider myself a highly capable professional eager to tackle any challenge that comes my way.
-    My strong learning capabilities, problem-solving skills, adaptability, teamwork, and effective communication
-    make me a valuable asset in any environment. I am committed to continuously developing these skills to grow
-    both personally and professionally.
+    I am a Solutions Architect with a strong passion for enterprise innovation and data-driven transformation.
+    My experience spans designing scalable architectures, managing complex technical initiatives, and supporting strategic decision-making through analytics and AI.<br><br>
+    
+    Currently at Deloitte, I work with BBVA's Global Solutions Architect team to:
+    <ul>
+        <li>Design functional and technical solutions aligned with business strategy</li>
+        <li>Manage demand for technology initiatives and innovation</li>
+        <li>Build reusable patterns for generative AI, cloud infrastructure, and data platforms</li>
+        <li>Support Architecture evolution and best practice dissemination</li>
+    </ul>
+    
+    I thrive in collaborative, multi-disciplinary environments where I can bridge business and technology perspectives.
+    My analytical mindset, combined with strong communication skills, enables me to work effectively with senior stakeholders and technical teams across different geographies and cultures.
+    <br><br>
+    
+    Continuously learning and adapting to new technologies, I am committed to driving organizational transformation and delivering measurable business value through innovative solutions.
     </div>
     """,
     unsafe_allow_html=True
 )
-
-

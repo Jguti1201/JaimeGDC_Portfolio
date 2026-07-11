@@ -95,9 +95,9 @@ with col1:
     st.markdown(
         """
         <div class="section-box">
-        External Global Solutions Architect at Deloitte, supporting BBVA's digital transformation and enterprise innovation.
-        I specialize in designing enterprise architectures, generative AI integration, cloud solutions (AWS), and data-driven decision support.
-        Experienced in translating complex business needs into scalable technical solutions across banking and financial services.
+        External Global Solutions Architect specializing in enterprise digital transformation, cloud architecture, and generative AI integration.
+        Currently supporting a leading Spanish banking group in designing scalable solutions that combine advanced analytics, machine learning, and LLM technologies.
+        Experienced in designing architecture patterns, managing technology initiatives, and driving innovation across cloud platforms (Azure, AWS) and modern data ecosystems (Databricks, Data Lakes).
         </div>
         """,
         unsafe_allow_html=True
@@ -143,12 +143,12 @@ with col2:
     st.markdown(
         """
         <div class="section-box">
-        <strong>Cloud & AI</strong>
+        <strong>Cloud & AI Platforms</strong>
         <ul>
+            <li>Azure: AI Services, OpenAI, Document Intelligence, Databricks</li>
             <li>AWS: EC2, Lambda, S3, DynamoDB, OpenSearch, Kinesis, Athena</li>
-            <li>Generative AI & LLMs Integration</li>
-            <li>Prompt Engineering & Semantic Search</li>
-            <li>RAG & Vector Embeddings</li>
+            <li>Generative AI & LLMs: Prompt Engineering, RAG, Embeddings</li>
+            <li>MLOps: Model Training, Monitoring, Deployment</li>
         </ul>
         </div>
         """,
@@ -159,11 +159,11 @@ with col3:
     st.markdown(
         """
         <div class="section-box">
-        <strong>Data & Analytics</strong>
+        <strong>Data & ML</strong>
         <ul>
             <li>Big Data: Hadoop, Spark, Kafka</li>
-            <li>Data Lakes & Data Warehouses</li>
-            <li>Machine Learning & Predictive Analytics</li>
+            <li>Data Platforms: Databricks, Data Lakes, Data Warehouses</li>
+            <li>Machine Learning: Scikit-learn, TensorFlow, MLflow</li>
             <li>Banking Domain: Retail, Enterprise, CIB</li>
         </ul>
         </div>
@@ -180,18 +180,18 @@ st.markdown(
     I am a Solutions Architect with a strong passion for enterprise innovation and data-driven transformation.
     My experience spans designing scalable architectures, managing complex technical initiatives, and supporting strategic decision-making through analytics and AI.<br><br>
     
-    Currently at Deloitte, I work with BBVA's Global Solutions Architect team to:
+    Currently at Deloitte, I work with a leading Spanish banking group's architectural team to:
     <ul>
         <li>Design functional and technical solutions aligned with business strategy</li>
         <li>Manage demand for technology initiatives and innovation</li>
         <li>Build reusable patterns for generative AI, cloud infrastructure, and data platforms</li>
-        <li>Support Architecture evolution and best practice dissemination</li>
+        <li>Support Architecture evolution and best practice dissemination across geographies</li>
     </ul>
     
     I thrive in collaborative, multi-disciplinary environments where I can bridge business and technology perspectives.
-    My analytical mindset, combined with strong communication skills, enables me to work effectively with senior stakeholders and technical teams across different geographies and cultures.
-    <br><br>
+    My analytical mindset, combined with strong communication skills, enables me to work effectively with senior stakeholders and technical teams across different cultures.<br><br>
     
+    Currently expanding expertise in machine learning platforms through Databricks professional certification, combining enterprise architecture thinking with hands-on ML engineering.
     Continuously learning and adapting to new technologies, I am committed to driving organizational transformation and delivering measurable business value through innovative solutions.
     </div>
     """,

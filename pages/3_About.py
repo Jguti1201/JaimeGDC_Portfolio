@@ -35,15 +35,15 @@ st.markdown("## 💼 Professional Experience")
 st.markdown(
     """
     **External Global Solutions Architect**  
-    *Deloitte — Madrid (Supporting BBVA)*  
+    *Deloitte — Madrid (Supporting a Leading Spanish Banking Group)*  
     *Current*  
 
-    Supporting BBVA's digital transformation and enterprise innovation as part of the Global Solutions Architect (GSA) team.
+    Supporting a leading Spanish banking group's digital transformation and enterprise innovation as part of the Global Solutions Architect (GSA) team.
     
     **Key Responsibilities:**
     
     **🎯 Demand Management & Architecture Governance**
-    - Identify and prioritize technology initiatives aligned with BBVA's global and local business strategies
+    - Identify and prioritize technology initiatives aligned with the banking group's global and local business strategies
     - Evaluate architectural impact and validate alignment with enterprise architecture standards
     - Communicate technical constraints and opportunities to business stakeholders
     
@@ -52,18 +52,21 @@ st.markdown(
     - Validate solution alignment with global strategy while supporting local market needs
     - Identify synergies and opportunities for component reuse across initiatives
     
-    **🏛️ Generative AI Architecture Patterns**
+    **🏛️ Generative AI & Machine Learning Architecture**
     - Design channel-specific AI integration strategies (digital, mobile, presencial, APIs)
-    - Develop LLM connection patterns maintaining security and regulatory compliance
-    - Define AWS infrastructure approaches (EC2, Lambda, S3, DynamoDB, OpenSearch, Kinesis, Athena)
-    - Establish data architecture patterns for AI-enabled solutions (Data Lakes, Warehouses, embeddings)
+    - Develop LLM connection patterns and prompt engineering strategies maintaining security and regulatory compliance
+    - Define Azure AI ecosystem approaches (Azure OpenAI, Document Intelligence, Cognitive Search)
+    - Establish Databricks ML platform patterns for model training, experiment tracking (MLflow), and data governance (Delta Lake)
+    - Design machine learning pipelines for predictive analytics and decision support systems
+    - Define AWS infrastructure approaches when needed (EC2, Lambda, S3, DynamoDB, OpenSearch, Kinesis, Athena)
+    - Establish data architecture patterns for AI-enabled solutions (Data Lakes, Warehouses, embeddings, vector search)
     
     **📚 Architecture Evolution & Knowledge Management**
     - Build centralized knowledge base of architectural patterns and best practices
-    - Drive adoption of new technologies across the Solutions Architect community
+    - Drive adoption of new technologies (Azure, Databricks, Generative AI) across the Solutions Architect community
     - Facilitate cross-geography knowledge transfer and lessons learned sharing
     
-    **🌐 Technical Domains:** AWS, Generative AI, LLMs, Big Data, Microservices, Data Platforms, Banking Architecture
+    **🔧 Technical Domains:** Generative AI, LLMs, Azure, AWS, Databricks, Big Data, Machine Learning, Microservices, Data Platforms, Banking Architecture
     
     **Soft Skills Developed:** Strategic thinking, stakeholder management, cross-functional leadership, technical communication, adaptability.
     """
@@ -83,6 +86,7 @@ st.markdown(
     - ☁️ Integrated Python-based AI pipelines with Azure AI and Azure OpenAI services.  
     - 🎯 Optimized AI model performance using prompt engineering, embeddings, and semantic search techniques.  
     - 📊 Designed dashboards and visualizations to communicate insights effectively to technical and non-technical stakeholders.  
+    - 🔬 Applied machine learning techniques for classification, clustering, and predictive modeling tasks.
 
     **Soft Skills Developed:** Problem-solving, analytical thinking, teamwork, communication, innovation mindset, adaptability.
     """
@@ -98,10 +102,10 @@ st.markdown(
     *Aug 2025 – Oct 2025*  
 
     - 📊 Designed and implemented enterprise AI adoption strategies aligned with ISO/IEC 42001.  
-    - 🗂 Defined corporate AI roadmaps, use case catalogs, and prioritization frameworks.  
+    - 📋 Defined corporate AI roadmaps, use case catalogs, and prioritization frameworks.  
     - 🤝 Collaborated with multidisciplinary teams to evaluate, structure, and deliver data-driven initiatives.  
-    - 🧩 Managed AI project portfolios, ensuring alignment between strategy, technology, and business needs.  
-    - 🏆 Created training materials, awareness campaigns, and workshops to drive AI adoption.  
+    - 🛠️ Managed AI project portfolios, ensuring alignment between strategy, technology, and business needs.  
+    - 🎓 Created training materials, awareness campaigns, and workshops to drive AI adoption.  
 
     **Soft Skills Developed:** Strategic thinking, leadership, cross-functional collaboration, stakeholder communication, adaptability.
     """
@@ -119,7 +123,7 @@ st.markdown(
     - 🧮 Collected, cleaned, and analyzed large datasets to extract actionable insights.  
     - 📈 Built forecasting models to predict customer satisfaction and business outcomes.  
     - 📊 Created interactive dashboards with Python and Power BI to visualize insights.  
-    - 💡 Applied statistical analysis for trend identification and data-driven recommendations.  
+    - 📉 Applied statistical analysis for trend identification and data-driven recommendations.  
 
     **Soft Skills Developed:** Attention to detail, analytical reasoning, data storytelling, time management, collaborative mindset.
     """
@@ -127,11 +131,14 @@ st.markdown(
 
 st.markdown("---")
 
-# -------- EDUCATION --------
-st.markdown("## 🎓 Education")
+# -------- EDUCATION & CERTIFICATIONS --------
+st.markdown("## 🎓 Education & Certifications")
 
 st.markdown(
     """
+    - **Databricks Certified Associate: Machine Learning** (In Progress)  
+      Specialization in ML workflows, model training, MLflow, and Delta Lake
+    
     - **Master's in Sports Big Data** (In Progress)  
       Universidad Europea — Madrid  
 
@@ -147,30 +154,34 @@ st.markdown("## 🔧 Technical Competencies")
 
 st.markdown(
     """
-    **Cloud & Infrastructure:**
-    - AWS: EC2, Lambda, App Runner, S3, DynamoDB, OpenSearch, Kinesis, Athena, VPC, IAM
+    **Cloud Platforms & AI Services:**
+    - **Azure:** Azure OpenAI, Azure AI Document Intelligence, Azure Cognitive Search, Azure Data Studio, Logic Apps, Azure AI Services
+    - **AWS:** EC2, Lambda, App Runner, S3, DynamoDB, OpenSearch, Kinesis, Athena, VPC, IAM
+    - **Databricks:** ML Platform, MLflow (experiment tracking), Delta Lake (data governance), notebooks, job orchestration
     - Serverless architectures and event-driven design
-    - Azure: Azure AI, Azure OpenAI, Azure Document Intelligence
     
     **Generative AI & LLMs:**
     - OpenAI (GPT-4, ChatGPT), Anthropic (Claude), Hugging Face, LangChain
     - Prompt Engineering and Fine-tuning
-    - RAG (Retrieval-Augmented Generation), Embeddings, Vector Databases
+    - RAG (Retrieval-Augmented Generation), Embeddings, Vector Databases (FAISS)
     - Semantic Search and NLP
     
-    **Data & Analytics:**
+    **Data Platforms & Big Data:**
+    - Databricks: ML workflows, model management, distributed computing
     - Big Data: Hadoop, Spark, Apache Kafka
     - Data Lakes and Data Warehouses
     - Databases: SQL (PostgreSQL, MySQL), NoSQL (DynamoDB, Elasticsearch, Couchbase)
     - ETL/ELT Pipelines and Data Orchestration
     
-    **Machine Learning:**
+    **Machine Learning & Analytics:**
     - Scikit-learn: Classification, Regression, Clustering
     - Deep Learning: TensorFlow, Keras, PyTorch
+    - MLflow: Experiment tracking, model registry, deployment
     - Predictive Analytics and Statistical Modeling
+    - Feature Engineering and Model Evaluation
     
     **Programming & Tools:**
-    - Python (Pandas, NumPy, Scikit-learn, Streamlit, FastAPI, Flask)
+    - Python (Pandas, NumPy, Scikit-learn, Streamlit, FastAPI, Flask, PySpark)
     - R (Statistical Analysis, Shiny, ggplot2)
     - SQL (Complex queries, optimization, window functions)
     - Jupyter Notebooks, Git, Docker, CI/CD
@@ -178,15 +189,16 @@ st.markdown(
     
     **Banking & Finance Domain:**
     - Retail, Enterprise, and CIB architecture
-    - Regulatory compliance (AML, GDPR)
+    - Regulatory compliance (AML, GDPR, regulatory frameworks)
     - Financial processes and business model understanding
+    - Risk management and compliance patterns
     """
 )
 
 st.markdown("---")
 
 # -------- LANGUAGES & SOFT SKILLS --------
-st.markdown("## 🗣 Languages & Professional Attributes")
+st.markdown("## 🗣️ Languages & Professional Attributes")
 
 st.markdown(
     """
@@ -197,11 +209,12 @@ st.markdown(
     **Key Professional Attributes:**  
     - 🎯 Strategic Thinking — Aligns technology initiatives with business objectives
     - 🤝 Collaborative Leadership — Bridges technical and business stakeholders
-    - 💡 Innovation Mindset — Drives adoption of emerging technologies
-    - 📊 Analytical Rigor — Data-driven decision making
+    - 💡 Innovation Mindset — Drives adoption of emerging technologies (AI, ML, Cloud)
+    - 📊 Analytical Rigor — Data-driven decision making and evidence-based approaches
     - 🔄 Adaptability — Thrives in evolving, multi-geographic environments
-    - 🗣 Clear Communication — Effective across technical and executive audiences
-    - 📈 Continuous Learning — Committed to staying current with industry trends
+    - 🗣️ Clear Communication — Effective across technical and executive audiences
+    - 📚 Continuous Learning — Committed to staying current (Databricks certification, AI evolution)
+    - 🏗️ Architectural Thinking — Views problems through scalability and long-term sustainability lenses
     """
 )
 
@@ -210,6 +223,7 @@ st.markdown("---")
 st.markdown(
     """
     **Philosophy:** I believe in translating complex business challenges into elegant, scalable technical solutions.
-    Technology should drive measurable business value while maintaining architectural coherence and organizational learning.
+    Technology should drive measurable business value while maintaining architectural coherence, regulatory compliance, and organizational learning.
+    I'm committed to leveraging emerging technologies (Generative AI, Machine Learning, Cloud Platforms) responsibly and strategically.
     """
 )

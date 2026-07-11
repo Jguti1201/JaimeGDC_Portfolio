@@ -88,7 +88,7 @@ st.title("📊 Data Science & Analytics Projects")
 st.markdown(
     """
     A curated selection of projects focused on **data-driven decision making,
-    predictive modeling, and business intelligence**, developed using industry-standard tools.
+    predictive modeling, machine learning, and business intelligence**, developed using industry-standard tools and platforms.
     """
 )
 
@@ -114,7 +114,7 @@ st.markdown(
     """
     <div class="section-header">
         <h2>⚡ Flagship Project: Rayo Vallecano Scout IA</h2>
-        <p>Enterprise-scale analytics platform for sports intelligence and strategic decision support.</p>
+        <p>Enterprise-scale analytics platform for sports intelligence and strategic decision support combining Machine Learning and Generative AI.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -124,19 +124,19 @@ st.markdown(
     project_card(
         "⚡ Rayo Vallecano Scout IA — Intelligent Scouting & Market Analysis",
         """Comprehensive platform for player analysis, market intelligence, and scouting support for Rayo Vallecano's sports direction.
-        The system integrates multi-source data ingestion, advanced analytics, tactical clustering, AI-powered recommendations, and automated reporting.
+        The system integrates multi-source data ingestion, advanced analytics, tactical clustering, machine learning models, AI-powered recommendations, and automated reporting.
         
         **Key Features:**
         • Multi-source data scraping (Transfermarkt, SofaScore) with incremental checkpointing
         • ETL pipelines: data cleaning, normalization, feature engineering (p90 metrics, percentiles)
-        • Advanced analytics: tactical clustering by position, player similarity analysis (cosine similarity), adaptation scoring
+        • Machine Learning: tactical clustering by position (K-means), player similarity analysis (cosine similarity), adaptation scoring
         • Streamlit dashboard: executive overview, market explorer, player comparator, watchlist, AI assistant
         • Generative AI: conversational profile search (OpenAI), technical analysis (Anthropic Claude), automated PDF reporting
         • Business impact: 80% reduction in initial scouting analysis time, data-driven decision making with full traceability
         
-        **Architecture:** Data Ingestion → ETL Processing → Analytics & Intelligence → Interactive Presentation Layer
+        **Architecture:** Data Ingestion → ETL Processing → Analytics & ML → Interactive Presentation Layer
         """,
-        ["Python", "Pandas/NumPy", "Scikit-learn", "Streamlit", "OpenAI/Claude", "Selenium", "BeautifulSoup", "Clustering", "Prompt Engineering"],
+        ["Python", "Pandas/NumPy", "Scikit-learn", "Streamlit", "OpenAI/Claude", "Selenium", "BeautifulSoup", "ML", "Prompt Engineering"],
         "https://github.com/Jguti1201/rayo_scouting_web"
     ),
     unsafe_allow_html=True

@@ -87,7 +87,7 @@ st.title("🤖 AI Solutions & Generative AI")
 
 st.markdown(
     """
-    AI-driven solutions focused on **NLP, Generative AI, LLM Integration, and intelligent systems**  
+    AI-driven solutions focused on **NLP, Generative AI, LLM Integration, Machine Learning, and intelligent systems**  
     deployed in enterprise consulting, fintech, and product environments.
     """
 )
@@ -116,7 +116,7 @@ def project_card(title, description, tech, link):
 # --------------------
 st.markdown(
     """
-    ## 🏛️ Enterprise AI Architecture (Deloitte - BBVA)
+    ## 🏛️ Enterprise AI Architecture (Deloitte - Leading Spanish Banking Group)
     
     **Current Experience:** Design and integration patterns for Generative AI in banking environments
     
@@ -124,7 +124,9 @@ st.markdown(
     - **Prompt Engineering:** Developing prompt patterns and strategies for financial domain-specific use cases
     - **Semantic Search & Embeddings:** Building vector-based search systems for document retrieval and knowledge discovery
     - **Channel-Specific AI:** Tailoring AI solutions across digital, mobile, presencial, and API-based channels
-    - **AWS Infrastructure:** Leveraging AWS services (Lambda, EC2, S3, DynamoDB, OpenSearch, Kinesis) for scalable AI pipelines
+    - **Azure AI Ecosystem:** Leveraging Azure OpenAI, Azure AI Document Intelligence, Azure Cognitive Search for enterprise solutions
+    - **AWS Infrastructure:** Utilizing AWS services (Lambda, EC2, S3, DynamoDB, OpenSearch, Kinesis, Athena) for scalable AI pipelines
+    - **Databricks ML Platform:** Designing machine learning workflows using Databricks for model training, MLflow for experiment tracking, and Delta Lake for data governance
     - **Data Integration:** Designing data architectures (Data Lakes, Data Warehouses) to support AI and analytics initiatives
     - **Governance & Compliance:** Ensuring AI solutions meet banking regulations and risk management standards
     """
@@ -139,12 +141,12 @@ projects = [
     {
         "title": "⚡ Rayo Vallecano Scout IA — AI-Powered Scouting Platform",
         "description": (
-            "Enterprise-scale AI platform for sports intelligence combining generative AI, NLP, and advanced analytics. "
+            "Enterprise-scale AI platform for sports intelligence combining generative AI, machine learning, NLP, and advanced analytics. "
             "Features: conversational player search using OpenAI, technical analysis generation (Anthropic Claude), "
-            "semantic similarity matching for player recommendations, and automated PDF report generation. "
-            "Demonstrates end-to-end LLM integration, prompt engineering, and AI-assisted decision support."
+            "ML-based tactical clustering and player similarity matching, semantic similarity for recommendations, and automated PDF report generation. "
+            "Demonstrates end-to-end LLM integration, prompt engineering, ML pipelines, and AI-assisted decision support."
         ),
-        "tech": "OpenAI, Anthropic Claude, Streamlit, Prompt Engineering, Semantic Search, Python, NLP",
+        "tech": "OpenAI, Anthropic Claude, Streamlit, Prompt Engineering, Semantic Search, Python, NLP, Scikit-learn, Machine Learning",
         "link": "https://github.com/Jguti1201/rayo_scouting_web"
     },
     {
@@ -152,9 +154,10 @@ projects = [
         "description": (
             "AI-powered recommendation system using Azure OpenAI and semantic embeddings. Combines domain-specific "
             "documentation with vector similarity search to deliver explainable, personalized recommendations based on "
-            "playing style, skill level, injury constraints, and budget. Demonstrates RAG principles and semantic matching."
+            "playing style, skill level, injury constraints, and budget. Demonstrates RAG principles, semantic matching, "
+            "and Azure AI service integration."
         ),
-        "tech": "Azure OpenAI, Embeddings, Vector Similarity, Python, Streamlit, NLP",
+        "tech": "Azure OpenAI, Embeddings, Vector Similarity, Python, Streamlit, NLP, Azure Services",
         "link": "https://github.com/Jguti1201/Recomendador-de-palas-de-padel"
     },
     {
@@ -162,8 +165,8 @@ projects = [
         "description": (
             "Specialized generative AI assistant built using Retrieval-Augmented Generation (RAG) architecture. "
             "Ingests clinical and technical PDF documentation, performs semantic search over vector embeddings, "
-            "and generates accurate, referenced answers for professional dental contexts. Demonstrates LLM integration "
-            "and knowledge-grounded AI systems."
+            "and generates accurate, referenced answers for professional dental contexts. Demonstrates LLM integration, "
+            "knowledge-grounded AI systems, and enterprise AI patterns."
         ),
         "tech": "OpenAI, LangChain, FAISS, RAG, Embeddings, Vector Search, Python, Streamlit",
         "link": "https://github.com/Jguti1201/IA-odontologa"
